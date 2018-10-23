@@ -1,0 +1,312 @@
+body{
+	font-family: Helvetica Neue,Helvetica,Arial,sans-serif;
+    color: #747474;
+    font-size: 16px;
+    margin: 0;
+    padding: 0;
+}
+a{
+	color: #747474;
+	text-decoration: none;
+}
+ul{
+	list-style-type: none;
+}
+.main-content{
+	max-width: 1015px;
+	margin: 0 auto;
+	position: relative;
+	display: flex;
+}
+/*************************************HEADER******************************************/
+header{
+	padding: 20px 0;
+    position: fixed;
+    z-index: 999;
+    background: #fff;
+    width: 100%;
+    top: 0;
+    max-height: 35px;
+}
+.logo{
+	flex:1;
+}
+.logo img{
+    width: 268px;
+    height: 33px;
+}
+.nav-top{
+	flex: 1;
+	display: flex;
+    justify-content: flex-end;
+}
+.nav-top ul{
+	display: inline-flex;
+}
+.nav-top ul li{
+	padding-left: 20px;
+}
+.nav-top li a {
+	color: #ababab;
+	font-size: 15px;
+}
+.nav-top li a:hover{
+	color: #00b39b;
+}
+.active{
+	color: #00b39b !important;
+}
+.nav-top ul ul{
+	display: none;
+}
+.nav-top ul li:hover ul{
+	display: block;
+}
+/*************************************END HEADER******************************************/
+/*****************************************************************************************/
+
+/*************************************ABOUT******************************************/
+
+.about-section{
+	display: flex;
+	flex-direction: column;
+	text-align: center;
+	margin: 100px auto 20px;
+}
+.about-section h1{
+	color: #00b39b;
+	font-weight: 300;
+	font-size: 35px;
+}
+.about-section img{
+	display: block;
+	margin:0 auto;
+}
+.about-content{
+	display: flex;
+}
+.about-content p{
+	flex: 1;
+	text-align: left;
+	padding: 10px;
+	line-height: 25px;
+}
+/*************************************END ABOUT******************************************/
+/****************************************************************************************/
+
+/*************************************SERVICES*******************************************/
+.service-section{
+	display: flex;
+	justify-content: space-between;
+	margin: 20px auto;
+}
+.block-service{
+	flex: 1;
+	border-radius: 10px;
+	padding: 20px 25px 0;
+	min-height: 370px;
+	overflow: hidden;
+	color: #fff;
+	margin: 10px;
+	position: relative;
+}
+.Block-green{
+	background-color: #00ccb1;
+}
+.Block-blue{
+	background-color: #3d83df;
+}
+.Block-green .img-service{
+	background-image: url(images/screen-marketplace@2x.png);
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+.Block-blue .img-service{
+	background-image: url(images/screen-saas@2x.png);
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+.img-service{
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    width: 354px;
+    height: 226px;
+    margin-right: -86px;
+}
+.block-service .spam {
+    font-size: 14px;
+    opacity: 0.7;
+}
+.block-service h2 {
+    font-weight: 300;
+    font-size: 29px;
+    line-height: 38px;
+}
+.block-service select {
+    BACKGROUND: #EEE;
+    BORDER: 1px solid #ded8d8;
+    padding: 10px 20px;
+    border-radius: 4px;
+    font-size: 14px;
+    text-transform: uppercase;
+    color: #000;
+}
+/*************************************END SERVICES*******************************************/
+/********************************************************************************************/
+
+/*************************************BRANDS*************************************************/
+.brands-section{
+	margin: 45px auto;
+}
+.brands-section h1{
+	flex: 1;
+}
+.brands-section .block-brands{
+	flex: 2;
+	display: flex;
+    flex-wrap: wrap;
+}
+.brands-section h1{
+	color: #00b39b;
+	font-size: 27px;
+	font-weight: 300;
+	margin: 0;
+	line-height: 36px;
+}
+.brands-section a{
+	margin:0 10px;
+}
+/*************************************END BRANDS*******************************************/
+/******************************************************************************************/
+
+/*************************************SECTION-PLATFORM*************************************/
+.platform-section{
+	background: #e5faf8 url(images/1.png) 5% bottom no-repeat;
+	margin: 3.125rem auto 5.5rem;
+	padding:20px 0;
+}
+.platform-section h1{
+	color: #00b39b;
+	font-size: 30px;
+	font-weight: 300;
+}
+.block-1 , .block-2{
+	flex: 1;
+}
+.block-1{
+	padding: 60px 20px 0 0;
+}
+.block-row{
+	display: flex;
+}
+.platform-section p {
+    font-size: 14px;
+    line-height: 25px;
+}
+.block-2{
+	display: flex;
+	flex-wrap: wrap;
+}
+.sous-block{
+	width: 39%;
+	background: #fff;
+	border-radius: 10px;
+	margin: 10px;
+	padding: 15px;
+	border:1px solid #eee;
+	text-align: center;
+	max-height: 235px;
+}
+.sous-block img{
+	display: block;
+    margin: 20px auto;
+}
+.sous-block h2{
+	color: #00b39b;
+	font-size: 24px;
+	font-weight: 300;
+}
+.sous-block-1{
+	margin-top: 40px;
+}
+.sous-block-4{
+	margin-top: -20px;
+}
+/*************************************END *************************************************/
+/******************************************************************************************/
+
+/*************************************SECTION-PORTFOLIO*************************************/
+
+
+.portfolio-section{
+	flex-direction: column;
+	align-items: center;
+	margin: 0 auto 70px;
+}
+.portfolio-section h2{
+	color: #00b39b;
+	font-size: 33px;
+	font-weight: 300;
+	text-align: center;
+	line-height: 42px;
+}
+.portfolio-section p{
+	text-align: center;
+}
+.portfolio{
+	display: flex;
+	flex-wrap: wrap;
+}
+.office{
+	margin: 10px;
+}
+.office:hover{
+	box-shadow: 0 20px 50px 0 rgba(0,0,0,.13);
+}
+.office img{
+	border-top-left-radius: 10px;
+	border-top-right-radius: 10px;
+}
+.content-portfolio{
+	display: flex;
+	border-left: 1px solid #eee;
+	border-right: 1px solid #eee;
+	border-bottom: 1px solid #eee;
+	padding:10px 10px 0;
+}
+.content-portfolio a, .content-portfolio h3{
+	flex: 1;
+}
+.content-portfolio h3{
+	font-weight: 300;
+	padding-left: 10px;
+}
+.link{
+	border-radius: 5px;
+	background: #3d83df;
+	text-align: center;
+	text-transform: uppercase;
+	font-size: 11px;
+    color: #fff;
+    font-weight: bold;
+    display: block;
+    max-height: 13px;
+    padding: 10px 0;
+    margin: 10px auto;
+    max-width: 110px;
+}
+.link:hover{
+	background: #1662c6;
+}
+/*************************************END PORTFOLIO*************************************************/
+/******************************************************************************************/
+
+/*************************************FOOTER*************************************/
+footer p{
+	text-align: center;
+	font-size: 12px;
+}
+footer a{
+	color: #3d83df;
+}
